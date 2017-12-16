@@ -47,4 +47,4 @@ def getImagesNames(repo_ip,repo_port):
         traceback.print_exc()
     return docker_images
  
-img_names=getImagesNames(repo_ip, repo_port)
+getImagesNames(repo_ip, repo_port)
