@@ -46,5 +46,7 @@ def getImagesNames(repo_ip,repo_port):
     except:
         traceback.print_exc()
     return docker_images
- 
-getImagesNames(repo_ip, repo_port)
+   
+
+if __name__ == '__main__':
+    getImagesNames(repo_ip, repo_port)
